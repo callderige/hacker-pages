@@ -16,7 +16,9 @@ Template.newHackerForm.events({
     }
 
     Hackers.insert(newHacker);
+
     alert("Insert was successful");
+
   }
 
 });

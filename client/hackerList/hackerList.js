@@ -1,3 +1,4 @@
+
 Template.hackerList.onCreated(function () {
 	Meteor.subscribe('Hackers');
 });	
