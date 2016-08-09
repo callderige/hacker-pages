@@ -15,7 +15,8 @@ Template.newHackerForm.events({
       allegiance: allegiance
     }
 
-    Hackers.insert(newHacker);
+    Meteor.call('addHacker', newHacker);
+    
 
     alert("Insert was successful");
 
